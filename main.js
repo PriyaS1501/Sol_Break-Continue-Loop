@@ -1,16 +1,3 @@
-//array declaration
-let arrayObj = [1,2,3,4,5,6,7,8,9,10];
-
-// for each with break statement
-
-for (let value of arrayObj)
-{
-    if (value === 5){
-        break;
-    }
-    console.log(value);
-    //console.log(value); // 1 2 3 4 5 6 7 8 9 10
-}
 
 // assignment : print even and odd number from list of 20 numbers
 
@@ -35,16 +22,5 @@ for (let number2 of arrayList)
         console.log(number2); // 1,3,5,7,9,11,13,15,17,19
     }
 }
-
-
-// continue statement
-
-for (let connumbers of arrayObj){ 
-    if (connumbers === 5){
-        continue;
-    }
-    console.log(connumbers); // 1 2 3 4 6 7 8 9 10
-}
-
 
 
